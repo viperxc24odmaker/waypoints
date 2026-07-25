@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "makeforgewaypoints",
+  "version": "${version}",
+  "name": "MakeForge Waypoints",
+  "description": "Lightweight, VulkanMod-friendly waypoint HUD. Set, remove and see your waypoints projected onto the screen with live distance. Pure GuiGraphics rendering, no OpenGL calls.",
+  "authors": [
+    "Divine / MakeForge"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.makeforge.waypoints.WaypointsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
